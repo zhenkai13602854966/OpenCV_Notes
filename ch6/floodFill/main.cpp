@@ -14,7 +14,7 @@ int main()
 {
 	Mat srcImage, dstImage;
 	
-	srcImage = imread("../../../Image/1.jpg");
+	srcImage = imread("../1.jpg");
 	Rect ccomp;
 	floodFill(srcImage, Point(50, 300), Scalar(155, 255, 55), &ccomp, Scalar(20, 20, 20), Scalar(20, 20, 20));
 	imshow("SrcImage", srcImage);
